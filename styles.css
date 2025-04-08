@@ -19,7 +19,7 @@
 .section__container {
   max-width: var(--max-width);
   margin: auto;
-  padding: 5rem 1rem;
+  padding: 10px;
 }
 
 .section__header {
@@ -242,15 +242,15 @@ nav {
 }
 
 .product__grid {
-  margin-top: 4rem;
+  margin-top: 2rem;
   display: grid;
-  gap: 2rem;
+  gap: 1rem;
 }
 
 .product__card {
   position: relative;
   isolation: isolate;
-  padding: 2rem;
+  padding: 8px;
 }
 
 .product__card::before {
@@ -259,8 +259,8 @@ nav {
   top: 0;
   left: 0;
   width: 100%;
-  height: 65%;
-  background-color: var(--extra-light);
+  height: 55%;
+  background-color: rgb(209, 205, 205);
   z-index: -1;
   transition: 0.3s;
 }
